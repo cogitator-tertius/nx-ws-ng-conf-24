@@ -9,7 +9,7 @@ import { TMDBMovieDetailsModel } from '../../shared/model/movie-details.model';
 import { DetailGridComponent } from '../../ui/component/detail-grid/detail-grid.component';
 import { StarRatingComponent } from '../../ui/pattern/star-rating/star-rating.component';
 import { MovieService } from '../movie.service';
-import { MovieImagePipe } from '../movie-image.pipe';
+import { MovieImagePipe } from 'shared/utils';
 import { MovieListComponent } from '../movie-list/movie-list.component';
 import { MovieModel } from '../movie-model';
 

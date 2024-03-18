@@ -6,7 +6,7 @@ import { provideFastSVG } from '@push-based/ngx-fast-svg';
 import { environment } from '../environments/environment';
 import { routes } from './app.routes';
 import { readAccessInterceptor } from './read-access.interceptor';
-import { ENVIRONMENT_TOKEN } from './shared/env.token';
+import { ENVIRONMENT_TOKEN } from 'shared/util-env-token';
 
 export const appConfig: ApplicationConfig = {
   providers: [

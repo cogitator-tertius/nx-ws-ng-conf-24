@@ -2,9 +2,9 @@ import { NgFor, NgIf, UpperCasePipe } from '@angular/common';
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { FastSvgComponent } from '@push-based/ngx-fast-svg';
 
-import { TiltDirective } from '../../tilt/tilt.directive';
+import { TiltDirective } from 'shared/utils'
 import { StarRatingComponent } from '../../ui/pattern/star-rating/star-rating.component';
-import { MovieImagePipe } from '../movie-image.pipe';
+import { MovieImagePipe } from 'shared/utils';
 import { MovieModel } from '../movie-model';
 
 @Component({
