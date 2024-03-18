@@ -4,7 +4,7 @@ import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { of, Subject, switchMap } from 'rxjs';
 
 import { MovieImagePipe } from 'shared/utils';
-import { MovieModel } from '../movie-model';
+import { MovieModel } from 'shared/models';
 import { SearchMovieService } from '../search-movie.service';
 
 @Component({

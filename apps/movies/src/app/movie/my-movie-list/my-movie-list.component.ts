@@ -12,7 +12,7 @@ import { FastSvgComponent } from '@push-based/ngx-fast-svg';
 import { filter } from 'rxjs';
 
 import { MovieService } from '../movie.service';
-import { MovieModel } from '../movie-model';
+import { MovieModel } from 'shared/models';
 import { MovieSearchControlComponent } from '../movie-search-control/movie-search-control.component';
 
 @Component({

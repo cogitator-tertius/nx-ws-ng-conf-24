@@ -5,7 +5,7 @@ import { FastSvgComponent } from '@push-based/ngx-fast-svg';
 import { TiltDirective } from 'shared/utils'
 import { StarRatingComponent } from '../../ui/pattern/star-rating/star-rating.component';
 import { MovieImagePipe } from 'shared/utils';
-import { MovieModel } from '../movie-model';
+import { MovieModel } from 'shared/models';
 
 @Component({
   selector: 'movie-card',

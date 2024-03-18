@@ -7,8 +7,8 @@ import { Environment, ENVIRONMENT_TOKEN } from 'shared/util-env-token';
 import { TMDBMovieModel } from '../shared/model/movie.model';
 import { TMDBMovieCreditsModel } from '../shared/model/movie-credits.model';
 import { TMDBMovieDetailsModel } from '../shared/model/movie-details.model';
-import { TMDBMovieGenreModel } from '../shared/model/movie-genre.model';
-import { MovieModel } from './movie-model';
+import { TMDBMovieGenreModel } from 'shared/models';
+import { MovieModel } from 'shared/models';
 
 @Injectable({
   providedIn: 'root',
