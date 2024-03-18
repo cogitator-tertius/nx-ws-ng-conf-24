@@ -11,7 +11,7 @@ import {
 import { Router } from '@angular/router';
 
 import { MovieCardComponent } from '../movie-card/movie-card.component';
-import { MovieModel } from '../movie-model';
+import { MovieModel } from 'shared/models';
 
 @Component({
   selector: 'movie-list',

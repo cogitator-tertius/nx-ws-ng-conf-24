@@ -11,7 +11,7 @@ import { StarRatingComponent } from '../../ui/pattern/star-rating/star-rating.co
 import { MovieService } from '../movie.service';
 import { MovieImagePipe } from 'shared/utils';
 import { MovieListComponent } from '../movie-list/movie-list.component';
-import { MovieModel } from '../movie-model';
+import { MovieModel } from 'shared/models';
 
 @Component({
   selector: 'movie-detail-page',

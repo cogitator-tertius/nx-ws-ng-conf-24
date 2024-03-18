@@ -4,7 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Observable, switchMap } from 'rxjs';
 
 import { MovieListComponent } from '../movie-list/movie-list.component';
-import { MovieModel } from '../movie-model';
+import { MovieModel } from 'shared/models';
 import { SearchMovieService } from '../search-movie.service';
 
 @Component({
